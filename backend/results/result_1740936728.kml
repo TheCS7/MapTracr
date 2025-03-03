@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+    <name>Network Traffic Analysis</name>
+    <description>Visualization of network traffic from PCAP analysis</description>
+    
+    <Style id="private_to_public">
+        <LineStyle>
+            <color>ff00ff00</color>
+            <width>2</width>
+        </LineStyle>
+        <IconStyle>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Style id="public_to_private">
+        <LineStyle>
+            <color>ff0000ff</color>
+            <width>2</width>
+        </LineStyle>
+        <IconStyle>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    <Style id="public_to_public">
+        <LineStyle>
+            <color>ffff0000</color>
+            <width>2</width>
+        </LineStyle>
+        <IconStyle>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+    
+    
+    </Document>
+    </kml>
